@@ -11,7 +11,7 @@
               <div class="col-md-12">
               <?php
                         include "config.php";
-
+                        // Calculate offset code 
                         $limit = 3;
 
                         
@@ -81,7 +81,7 @@
                   </table>
                   <?php
                     }
-
+                    //show pagination
                     $sql1 = "SELECT * FROM post";
                     $result1 = mysqli_query($conn,$sql1) or die("Query failed.");
 
